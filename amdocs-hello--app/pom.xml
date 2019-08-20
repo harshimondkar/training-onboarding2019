@@ -13,10 +13,12 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
+						<executions>
+							<execution>
 							<id>default-compile</id>
 							<phase>none</phase>
 						</execution>
+						</executions>
 					</plugin>
 				</plugins>
 				
@@ -31,19 +33,23 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-compile</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-compile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-testCompile</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-testCompile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 				
@@ -58,28 +64,34 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-compile</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-compile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-testCompile</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-testCompile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-surefire-plugin</artifactId>
 						  <version>2.12.4</version>
-						<execution>
-							<id>default-test</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 				</plugins>
@@ -93,37 +105,45 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-compile</id>
-							<phase>none</phase>
-						</execution>
+							<executions>
+							<execution>
+								<id>default-compile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-compiler-plugin</artifactId>
 						  <version>3.1</version>
-						<execution>
-							<id>default-testCompile</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-testCompile</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-surefire-plugin</artifactId>
 						  <version>2.12.4</version>
-						<execution>
-							<id>default-test</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-test</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						  <artifactId>maven-jar-plugin</artifactId>
 						  <version>2.4</version>
-						<execution>
-							<id>default-jar</id>
-							<phase>none</phase>
-						</execution>
+						<executions>
+							<execution>
+								<id>default-jar</id>
+								<phase>none</phase>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 				</plugins>
