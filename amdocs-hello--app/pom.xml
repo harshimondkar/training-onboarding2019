@@ -94,7 +94,6 @@
 						</executions>
 					</plugin>
 				</plugins>
-				</plugins>
 			</build>
 		</profile>
 		<profile>
@@ -145,7 +144,6 @@
 							</execution>
 						</executions>
 					</plugin>
-				</plugins>
 				</plugins>
 			</build>
 		</profile>
