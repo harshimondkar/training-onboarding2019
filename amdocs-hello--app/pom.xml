@@ -3,7 +3,6 @@
   <groupId>org.amdocs</groupId>
   <artifactId>amdocs-hello--app</artifactId>
   <version>1.0.0</version>
-	
 	<profiles>
 		<profile>
 			<id>test</id>
